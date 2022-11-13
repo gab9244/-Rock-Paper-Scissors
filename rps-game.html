@@ -5,17 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors Game</title>
-    <script src="JavaScript.js"></script>
     <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
     <h1>The Rock Paper and Scissors GAME!!!!!</h1>
     <p>Jogue uma melhor de 5 contra o computador</p>
-    <p id="you"></p>
-    <p id="youwin"></p>
-    <button id="yourchoice" onclick="yourchoice()"><img src="imagens/rock-image.jpg" alt="a rock"></button>
-    <button><img src="imagens/epci-scissors.jpg" alt="a scissors"></button>
-    <button><img src="imagens/golden-paper.jpg" alt="a golden paper"></button>
-    
+    <div class="placar">
+        <p id="PlayerPoints">0</p>
+        <p id="ComputerPoints">0</p>
+        
+    </div>
+    <p id="result"></p>
+   <div class="botoes">
+            <button id="Rock_div"><img src="imagens/rock-image.jpg" alt="a rock"></button>
+            <button id="Paper_div"><img src="imagens/golden-paper.jpg" alt="a golden paper"></button>
+            <button id="Scissors_div"><img src="imagens/epci-scissors.jpg" alt="a scissors"></button>
+   </div>
+   
+   <script src="JavaScript.js"></script>
 </body>
 </html>
